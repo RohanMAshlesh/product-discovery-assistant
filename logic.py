@@ -3,10 +3,10 @@ from openai import OpenAI
 from typing import Dict, List, Optional
 import json
 
-# Initialize OpenAI client with API key directly
+# Initialize OpenAI client with API key from environment variable
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key=os.getenv("OPENROUTER_API_KEY")
 )
 
 class ProductDiscoveryAnalyzer:
