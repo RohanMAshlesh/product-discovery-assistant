@@ -1,0 +1,227 @@
+/* Main container styling */
+.main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sticky header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    z-index: 100;
+}
+
+.sticky-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #1E1E1E;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0 0;
+}
+
+/* Description section */
+.description {
+    background-color: #F8F9FA;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    border-left: 4px solid #0066CC;
+}
+
+.description p {
+    margin: 0;
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1E1E1E;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Input area styling */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 2px solid #E0E0E0;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus,
+.stTextArea > div > div > textarea:focus {
+    border-color: #0066CC;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+/* Button styling */
+.stButton > button {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    background-color: #0066CC;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stButton > button:hover {
+    background-color: #0052A3;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1E1E1E;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #E0E0E0;
+}
+
+.streamlit-expanderHeader:hover {
+    background-color: #F0F2F5;
+}
+
+/* Framework header */
+.framework-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #F0F2F5;
+}
+
+.framework-header h3 {
+    color: #0066CC;
+    margin: 0;
+}
+
+/* Analysis section styling */
+.analysis-section {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Framework results styling */
+.framework-result {
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin: 0.8rem 0;
+    border: 1px solid #E0E0E0;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-top: 1px solid #eee;
+    color: #666;
+}
+
+.footer a {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.stAlert {
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Spinner styling */
+.stSpinner {
+    margin: 1rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main {
+        padding: 1rem;
+    }
+    
+    .sticky-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .description {
+        padding: 1rem;
+    }
+    
+    .description p {
+        font-size: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    .stTextInput > div > div > input,
+    .stTextArea > div > div > textarea {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+    
+    .stButton > button {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+    
+    .streamlit-expanderHeader {
+        font-size: 1.1rem;
+        padding: 0.8rem;
+    }
+} 
