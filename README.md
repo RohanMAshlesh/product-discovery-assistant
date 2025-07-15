@@ -1,9 +1,5 @@
 # Product Discovery Assistant
 
-## Demo
-
-[Watch the demo on Loom](https://www.loom.com/share/8c424cc8c0e64463b91c8daeaaa7e418?sid=e887722e-c13d-4a87-9800-53ed48fcd523)
-
 AI-powered, one-page Streamlit web app to guide users through product discovery frameworks and dynamic seat pricing.
 
 ## Features
@@ -13,6 +9,10 @@ AI-powered, one-page Streamlit web app to guide users through product discovery 
 - **Price Drop Notification:** Ribbon appears when the highest-priced seat drops in price
 - **Downloadable Reports:** Export strategy reports as TXT or PDF
 - **Modern UI:** Clean, responsive, and professional design
+
+## Demo
+
+[Watch the demo on Loom](https://www.loom.com/share/8c424cc8c0e64463b91c8daeaaa7e418?sid=e887722e-c13d-4a87-9800-53ed48fcd523)
 
 ## Setup
 1. **Clone the repo:**
